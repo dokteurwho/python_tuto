@@ -58,6 +58,7 @@ def print_top(filename, number):
 
     dict = get_words(filename)
 
+    # Pompage de l'internet
     for key in sorted(dict, key=dict.get, reverse=True):
         print key, dict[key]
         number = number - 1
